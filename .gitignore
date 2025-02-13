@@ -1,21 +1,19 @@
-# Ignore Python cache and compiled files
+# Ignore Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
+# Ignore environment variables
+.env
+
 # Ignore virtual environments
 venv/
 env/
 
-# Ignore environment variables (API keys, secrets)
-.env
-
-# Ignore uploads (images saved from app)
+# Ignore uploaded images (optional)
 static/uploads/
 
-# Ignore Jupyter notebook checkpoints
+# Ignore Jupyter Notebook checkpoints (but NOT notebooks)
 .ipynb_checkpoints/
 
-# Ignore Docker build cache
-.dockerignore
