@@ -3,7 +3,7 @@
 ## **Overview**
 This project implements an image classification model trained on the **CIFAR-10 dataset** using **PyTorch**. The model classifies images into one of **10 categories**: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.
 
-To make the model accessible, a **Flask API** is built, and the application is containerized using **Docker**.
+To make the model accessible, a **Flask API** is built, and the application is containerized using **Docker**. The project also integrates GitHub Actions for **CI/CD** automation, ensuring seamless building, testing, and deployment of the model.
 
 ### **Project Structure:**
 - **Train the model** in Jupyter Notebook (`model_train.ipynb`)
