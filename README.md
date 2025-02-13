@@ -99,7 +99,6 @@ Access the app at `http://localhost:5000`
 ## **Conclusion**
 This project demonstrates image classification with PyTorch, Flask API development, and Docker containerization. Future improvements include:
 
--Trying different architectures (ResNet-34, MobileNet, EfficientNet)
--Implementing a CI/CD pipeline with GitHub Actions
--Deploying on AWS or other cloud platforms for production use
+- Trying different architectures (ResNet-34, MobileNet, EfficientNet)
+- Deploying on AWS or other cloud platforms for production use
 
